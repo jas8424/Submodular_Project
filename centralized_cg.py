@@ -1,6 +1,6 @@
 def centralized_cg(B_to_A, k=10):
     """
-    Try to find the maximum coverage of nodes in set A by selecting nodes from set B.
+    Using centralized CG to find the maximum coverage of nodes in A(professors) by selecting nodes from B(venues).
 
     Args:
         B_to_A (dict): Venues(int) are keys and Professors(set()) who published on that venues are corresponding values
