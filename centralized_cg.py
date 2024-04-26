@@ -1,4 +1,4 @@
-def centralized _cg(B_to_A, k=10):
+def centralized_cg(B_to_A, k=10):
     """
     Try to find the maximum coverage of nodes in set A by selecting nodes from set B.
 
